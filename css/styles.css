@@ -1,0 +1,46 @@
+:root {
+    --brand-green: #819B17;
+    --text-light: #faf4ea;
+    --text-dark: #31261a;
+}
+body {
+    color: var(--text-dark);
+}
+
+
+ul {
+    list-style-type: none;
+}
+button {
+    background-color: var(--brand-green);
+    border-color: 2px solid var(--brand-green);
+    border-radius: 12px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: transparent;
+}
+button:focus {
+    background-color: transparent;
+}
+
+.header-link {
+    color: aliceblue;
+}
+.header-link:hover {
+    color: var(--brand-green);
+}
+.title-span {
+    color: purple;
+}
+.advantages-list {
+    background-color: var(--brand-green);
+}
+.section-title {
+    color: var(--text-dark);
+}
+.shef-accent {
+    color: var(--brand-green);
+}
+
+

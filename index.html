@@ -5,31 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
 </head>
-<body>
-    <header>
+    <body>
+        <header>
         <nav>
-             <a href="#"></a>
-             <img src="./images/bread-svgrepo-com.svg" alt="Логотип хліба" />
+             <a href="./index.html">
+             <img src="./images/bread-breakfast-food-svgrepo-com.svg" alt="Логотип хліба" />
                 <ul>
-                <li><a href="#">Франшиза</a></li>
-                <li><a href="#">Наші традиції</a></li>
-                <li><a href="#">Формати</a></li>
-                <li><a href="#">Контакти</a></li>
-             </ul>
+                    <li><a class="header-link" href="#traditions">Наші традиції</a></li>
+                    <li><a class="header-link" href="#shefs">Шеф-кухарі</a></li>
+                    <li><a class="header-link" href="#">Формати</a></li>
+                    <li><a class="header-link" href="#adresa">Контакти</a></li>
+                </ul>
         </nav>
-        <button type="button">Замовити дзвінок</button>
-    </header>
-        <main>
+            <button type="button">Замовити дзвінок</button>
+        </header>
+        <link rel="stylesheet" href="./css/styles.css">
+                <main>
         <section>
-            <h1>Сучасна пекарня</h1>
-            <ul>
+            <h1 class="hero-title"><span class="title-span">Сучасна</span> пекарня</h1>
+            <ul class="advantages-list">
                 <li>Великий попит на ринку</li>
                 <li>Доступні за бюджетом формати</li>
                 <li>Досвідчена управлінська команда</li>
             </ul>
         </section>
-        <section>
-            <h2>Новий формат традицій</h2>
+        <section id="traditions">
+            <h2 class="section-title">Новий формат традицій</h2>
             <p>
                 <span>Shop bakery</span> - це пекарня, яка взяла все найкраще, і зберегла смак традиційної
                 випічки та натуральність інгредієнтів
@@ -39,8 +40,9 @@
                 у наших пекарень стильний дизайн та висока якість обслуговування!
             </p>
         </section>
-        <section>
-            <h2>Наші найкращі шеф повари</h2>
+        <section id="shefs">
+            <h2 class="section-title">Наші найкращі<span class="shef-accent"> шеф-кухарі</span></h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/ok1Vswso-do?si=N1cSbSlMtD6Z-FKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <ul>
                 <li>
                     <article>
@@ -63,7 +65,7 @@
             </ul>
         </section>
         <section>
-            <h2>Формати</h2>
+            <h2 class="section-title">Формати</h2>
             <ul>
                 <li>
                     <article>
@@ -83,9 +85,10 @@
             </ul>
         </section>
         <section>
-            <h2>Приєднуйтесь до мережі пекарень</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.1636304352783!2d30.48869837659547!3d50.45667757159339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce637c006b2d%3A0xaf86385f19996ff0!2z0LLRg9C70LjRhtGPINCh0ZbRh9C-0LLQuNGFINCh0YLRgNGW0LvRjNGG0ZbQsiwgNTQsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1762195479577!5m2!1suk!2sua" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <h2 class="section-title">Приєднуйтесь до мережі пекарень</h2>
         </section>
-        </main>
+                </main>
             <footer>
                 <nav>
                     <ul>
@@ -94,7 +97,7 @@
                         <li><a href="#">Формати</a></li>
                         <li><a href="#">Контакти</a></li>
                     </ul>
-                    <adress>
+                    <adress id="adresa">
                         <ul>
                             <li><a href="tel:+3809600000007">38 (096) 0000 00 07</a></li>
                             <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</li>
@@ -107,5 +110,5 @@
                     <a href="#"></a>  
                     <!--logo-->                  
             </footer>
-</body>
+    </body>
 </html>
