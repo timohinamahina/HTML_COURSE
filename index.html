@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Сучасна пекарня</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
     <body>
         <header>
@@ -13,7 +16,7 @@
                 <ul>
                     <li><a class="header-link" href="#traditions">Наші традиції</a></li>
                     <li><a class="header-link" href="#shefs">Шеф-кухарі</a></li>
-                    <li><a class="header-link" href="#">Формати</a></li>
+                    <li><a class="header-link" href="#formats">Формати</a></li>
                     <li><a class="header-link" href="#adresa">Контакти</a></li>
                 </ul>
         </nav>
@@ -31,30 +34,31 @@
         </section>
         <section id="traditions">
             <h2 class="section-title">Новий формат традицій</h2>
-            <p>
+            <p class="shop-bakery-uppercase">
                 <span>Shop bakery</span> - це пекарня, яка взяла все найкраще, і зберегла смак традиційної
                 випічки та натуральність інгредієнтів
             </p>
-            <p>
-                Ми працюємо як найвідоміші мережі - <span>5 хвилин і замовлення готове.</span>. А ще
+            <p class="shop-bakery">
+                Ми працюємо як найвідоміші мережі - <span>5 хвилин і замовлення готове.</span> А ще
                 у наших пекарень стильний дизайн та висока якість обслуговування!
             </p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ok1Vswso-do?si=N1cSbSlMtD6Z-FKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
         </section>
         <section id="shefs">
             <h2 class="section-title">Наші найкращі<span class="shef-accent"> шеф-кухарі</span></h2>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/ok1Vswso-do?si=N1cSbSlMtD6Z-FKH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             <ul>
                 <li>
                     <article>
                     <h3>Настя</h3>
-                    <p>Привіт, я Настя!</p>
+                    <p class="chef-title"> я Настя!</p>
                     <p>Вже 10 років, я висвітлюю у життя цікаві
                     та смачні ідеї</p>
                     <p>Я випічу для вас насмачніші вироби!</p>
                 </li>
                 <li>
                     <article>
-                    <h3>Влад</h3>
+                    <h3 class="chef-title">Влад</h3>
                     <p>Привіт, я Влад!
                     <p>Мій кондитерський стаж вже 18 років. SHOP BAKERY - це 
                     наша любов, з якою ми ділимось кожен раз з Вами через нашу випічку!
@@ -64,22 +68,43 @@
                 </li>
             </ul>
         </section>
-        <section>
-            <h2 class="section-title">Формати</h2>
-            <ul>
+        <section class="section-formats">
+            <h2 class="section-title" id="formats">Формати</h2>
+            <ul class="section-formats">
                 <li>
                     <article>
-                    <h3 leng = "en">Walrus</h3>
+                    <h3 leng ="en">Walrus</h3>
+                    <div class="text-format">
+                        <p>Площа: до 120м2</p>
+                    <p>Меню: розширене меню</p>
+                    <p>Штат: 2 продавці-касири, 2 пекаря, 2
+                        помічника пекаря, 2 офіціанти-різнороби
+                    </p>
+                    <p>Посадкові місця є</p>  
+                    </p>
+                    </div>
                     </article>
                 </li>
                 <li>
                     <article>
-                    <h3 leng = "en"></h3>Horseshoe</h3>
+                    <h3 leng ="en">Horseshoe</h3>
+                    <div><p>Площа: до 25м2</p>
+                    <p>Меню: найпопулярніші позиції меню</p>
+                    <p>Штат: 2 продавці-касири, 2 пекаря, 1
+                        помічника пекаря</p>
+                    <p>Посадкові місця відсутні</p>
+                    </div>
                     </article>
                 </li>
                 <li>
                     <article>
-                    <h3 leng = "en"></h3>Handlebar</h3>
+                    <h3 leng ="en">Handlebar</h3>
+                    <div>
+                        <p>Площа: до 15м2</p>
+                    <p>Меню: найпопулярніші позиції меню</p>
+                    <p>Штат: 1 продавець, і касир, 1 помічник пекаря</p>
+                    <p>Посадкові місця відсутні</p>
+                    </div>
                     </article>
                 </li>
             </ul>
@@ -92,23 +117,23 @@
             <footer>
                 <nav>
                     <ul>
-                        <li><a href="#">Франшиза</a></li>
-                        <li><a href="#">Наші традиції</a></li>
-                        <li><a href="#">Формати</a></li>
-                        <li><a href="#">Контакти</a></li>
+                        <li><a class="header-link" href="#">Франшиза</a></li>
+                        <li><a class="header-link" href="#traditions">Наші традиції</a></li>
+                        <li><a class="header-link" href="#formats">Формати</a></li>
+                        <li><a class="header-link" href="#adresa">Контакти</a></li>
                     </ul>
                     <adress id="adresa">
                         <ul>
-                            <li><a href="tel:+3809600000007">38 (096) 0000 00 07</a></li>
-                            <li><a href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</li>
-                            <li><a href="https://maps.app.goo.gl/sJt6aHMTwwWX4QRo6" target="_blank"> 
+                            <li><a class="adress-link" href="tel:+3809600000007">38 (096) 0000 00 07</a></li>
+                            <li><a class="adress-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</li>
+                            <li><a class="adress-link" href="https://maps.app.goo.gl/sJt6aHMTwwWX4QRo6" target="_blank"> 
                             Україна, м.Київ, вул. Січових Стрільців 54
                             </a></li>
                         </ul>
                     </adress>
                 </nav>
-                    <a href="#"></a>  
-                    <!--logo-->                  
+                    <a class="adress-link" href="#">Політика конфідеційності</a>  
+                    <a class="adress-copyright">&copy;Дані захищені</a>              
             </footer>
     </body>
 </html>
